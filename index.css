@@ -979,3 +979,32 @@ body.nav-active { overflow: hidden; }
 }
 
 
+
+  .hero-text {
+    list-style: none; /* remove bolinhas */
+    padding: 0;
+    text-align: center;
+  }
+
+  .hero-text li {
+    display: flex;
+    align-items: left;
+    justify-content: left; /* centraliza horizontalmente */
+    gap: 8px; /* espaço entre imagem e texto */
+    margin: 6px 0;
+    font-size: 18px;
+  }
+
+  .hero-text img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .hero-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+
+
+
